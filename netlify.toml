@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/explain"
+  to = "/.netlify/functions/explain"
+  status = 200

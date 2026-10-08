@@ -1,0 +1,11 @@
+{
+  "name": "pulli",
+  "version": "1.0.0",
+  "description": "Pulli: a kolam co-creator. Draw around a dot grid, watch it mirror, ask an AI to explain it.",
+  "private": true,
+  "scripts": {
+    "dev": "node dev-server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" }
+}
